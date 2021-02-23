@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/VallesMarineris.obj-8938e3e8fdaeba97e1a4756c717268fb.mesh"
+
+[deps]
+
+files=[ "res://.import/VallesMarineris.obj-8938e3e8fdaeba97e1a4756c717268fb.mesh" ]
+
+source_file="res://VallesMarineris.obj"
+dest_files=[ "res://.import/VallesMarineris.obj-8938e3e8fdaeba97e1a4756c717268fb.mesh", "res://.import/VallesMarineris.obj-8938e3e8fdaeba97e1a4756c717268fb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

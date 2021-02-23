@@ -2,7 +2,7 @@ extends KinematicBody
 
 const MOVEMENT_SPEED : float = 7.0
 const JUMP_SPEED : float = 1.25 * MOVEMENT_SPEED
-const GRAVITY : float = 20.0
+const GRAVITY : float = 15.0
 
 const MOUSE_SENSITIVITY : float = 0.2
 

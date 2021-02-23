@@ -3,12 +3,12 @@ extends Camera
 onready var Player = get_parent()
 
 func _ready():
-	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-	
-	translation = Player.translation - Vector3.UP;
+	translation = Player.get_node("CharacterMesh").translation - Vector3.UP;
 
 func _input(event):
+	if Input.get_mouse_mode() != Input.MOUSE_MODE_CAPTURED:
+		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	
 	if event is InputEventMouseMotion:
 		var rotation_speed = deg2rad(-event.relative.y * Player.MOUSE_SENSITIVITY);
 		

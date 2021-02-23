@@ -2,4 +2,4 @@
 *.translation
 export_presets.cfg
 .mono/
-.src/bin
+src/bin
